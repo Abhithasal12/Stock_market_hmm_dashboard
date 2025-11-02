@@ -1,0 +1,7 @@
+DASHBOARD REFRESH INSTRUCTIONS
+
+1. Open 'dashboard.pbix' in Power BI Desktop.
+2. Click 'Home' > 'Transform data' to review data sources. Check that your CSVs (e.g., feature_engineered_data1.csv, regimes.csv, trade_ledger1.csv) point to the latest files in your data/processed/ directory.
+3. To refresh all data, click the 'Refresh' button on the Home tab.
+4.After a successful refresh, visuals will reflect the latest pipeline results.
+5. If new data schema is introduced, revisit Power Query to update data source mappings.
