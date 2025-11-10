@@ -28,6 +28,6 @@ df['regime_label'] = df['regime'].map(mapping)
 df.to_csv("../data/regimes.csv", index=False)
 print("Regime detection complete. Output saved to ../data/regimes.csv")
 
-# Optional: Print regime distribution & mean returns
+# Print regime distribution & mean returns
 print(df['regime_label'].value_counts())
 print(means)
